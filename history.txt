@@ -45,3 +45,6 @@
    45  git commit -m "test: add failing test for invalid repetition case"
    46  git push origin main
    47  history > history.txt
+git pull
+npm test
+doskey /HISTORY >> history.txt

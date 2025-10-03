@@ -20,13 +20,23 @@ const functions = {
 
     // dev A create a block of code to handle numbers
     let total = 0;
+    roman = roman.toUpperCase()
     for(let i = 0; i < roman.length; i++)
     {
       if (!romanNum.hasOwnProperty(roman[i])){
         return 'Invalid input: Input should be roman numerals.'
       }
+
+
       const current = romanNum[roman[i]];
       const next = romanNum[roman[i + 1]];
+      
+      if (['V', 'L', 'D'].includes(roman[i]) && current == next){
+        throw new Error("Invalid repetition")
+      }
+      if (roman.slice(i, i+4) == "IIII"){
+        throw new Error("Invalid repetition")
+      }
 
       if(next && current < next)
       {

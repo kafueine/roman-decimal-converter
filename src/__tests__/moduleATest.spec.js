@@ -40,7 +40,7 @@ describe('Roman Numeral to Decimal Converter', () => {
   })
 
   it('should throw an error for invalid repetition like "IIII"', () => {
-    expect(() => romanToDecimal('IIII')).toThrow('Invalid repetition');
+    expect(() => romanToDecimal('VV')).toThrow('Invalid repetition');
   });
 
 });
