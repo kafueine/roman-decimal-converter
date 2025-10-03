@@ -15,5 +15,19 @@ describe('Roman Numeral to Decimal Converter', () => {
   });
 
   //case 2 (example: for dev b, make test case on invalid inputs like numbers)
+  it('When numeral is 10, it should return throw an error', () => {
+    // Arrange
+    const roman = '10';
+
+    // Act
+    const result = romanToDecimal(roman);
+
+    // Assert
+    expect(result).toEqual('Invalid input: Input should be a string.');
+  });
+
+
+  //case 3 (example: for dev a, make test case on lowercase)
+
 
   });
