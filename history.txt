@@ -1,9 +1,47 @@
-npm install -g jest
-npm install
-npm test
-jest --watch
-npm test
-git add *
-git commit -m "Feat: Add a new test case, make sure function passes test case 2"
-git push
-doskey /history > history.txt
+    1  
+    2  cd C:\Users
+    3  cd USER\Documents\GitHub
+    4  cd C:\Users\USER\Documents\GitHub
+    5  cd C:\Users\USER\Documents\GitHub\roman-decimal-converter
+    6  git clone <repo-url>
+    7  git clone https://github.com/kafueine/roman-decimal-converter
+    8  node -v
+    9  npm -v
+   10  npm install -g jest
+   11  npm test
+   12  npm test
+   13  npm test
+   14  cdC:\Users\USER\Documents\GitHub\roman-decimal-converter
+   15  cd C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   16  C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   17  cd C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   18  cd C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   19  npm test         
+   20  git add src/__tests__/moduleATest.spec.js
+   21  C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   22  cd C:\Users\USER\Documents\GitHub\roman-decimal-converter
+   23  cd /c/Users/USER/Documents/GitHub/roman-decimal-converter
+   24  git add src/__tests__/moduleATest.spec.js
+   25  git commit -m "test: add failing test for invalid input case (number)"
+   26  git push origin main
+   27  history > history.txt
+   28  git add history.txt
+   29  git commit -m "chore: add terminal command history"
+   30  git push origin main
+   31  git status
+   32  git add src/moduleA.js
+   33  git commit -m "feat: implement romanToDecimal for numbers to pass test"
+   34  git push origin main
+   35  git status
+   36  [200~cd ~/Documents/GitHub/roman-decimal-converter~
+   37  cd ~/Documents/GitHub/roman-decimal-converter
+   38  git pull origin main
+   39  git status
+   40  pm test
+   41  npm test
+   42  npm test
+   43  npm test
+   44  git add src/__tests__/moduleATest.spec.js
+   45  git commit -m "test: add failing test for invalid repetition case"
+   46  git push origin main
+   47  history > history.txt
