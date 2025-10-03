@@ -19,11 +19,12 @@ const functions = {
     };
 
     // dev A create a block of code to handle numbers
-
-
     let total = 0;
     for(let i = 0; i < roman.length; i++)
     {
+      if (!romanNum.hasOwnProperty(roman[i])){
+        return 'Invalid input: Input should be roman numerals.'
+      }
       const current = romanNum[roman[i]];
       const next = romanNum[roman[i + 1]];
 
@@ -37,10 +38,7 @@ const functions = {
       }
     }
     return total;
-
    }
-
-
 };
 
 module.exports = functions;

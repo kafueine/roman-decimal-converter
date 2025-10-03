@@ -23,11 +23,20 @@ describe('Roman Numeral to Decimal Converter', () => {
     const result = romanToDecimal(roman);
 
     // Assert
-    expect(result).toEqual('Invalid input: Input should be a string.');
+    expect(result).toEqual('Invalid input: Input should be roman numerals.');
   });
 
 
   //case 3 (example: for dev a, make test case on lowercase)
+  it('When the numeral is in lowercase, it should still pass.', () => {
+    // Arrange
+    const roman = 'm'
 
+    // Act
+    const result = romanToDecimal(roman)
 
-  });
+    // Assert 
+    expect(result).toEqual(1000)
+  })
+
+});
