@@ -39,4 +39,8 @@ describe('Roman Numeral to Decimal Converter', () => {
     expect(result).toEqual(1000)
   })
 
+  it('should throw an error for invalid repetition like "IIII"', () => {
+    expect(() => romanToDecimal('IIII')).toThrow('Invalid repetition');
+  });
+
 });
